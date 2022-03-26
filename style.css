@@ -1,0 +1,160 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.header{
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.bg{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#formulario{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-top:50px;
+    margin-bottom: 100px;
+    position: absolute;
+    width: 450px;
+    height: 600px;
+    background-color: #181717;
+    opacity: 0.9;
+    left: 457px;
+    
+}
+
+#input{
+    background-color: #333333;
+    padding: 14px;
+    margin-top: 38px;
+    border: none;
+    width: 64%;
+    color: white;
+}
+
+#checkbox{
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 63px;
+    margin-top: 10px;
+    color: #737373;
+}
+
+#entrar{
+    width: 316px;
+    margin-top: 62px;
+    background-color: #e50914;
+    padding: 14px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+form legend{
+    padding-right: 240px;
+    margin-top: 55px;
+}
+
+input{
+    width: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #737373;
+    margin-right: 70px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 2px;
+    color: #737373;
+    margin: 3px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    
+}
+
+#p1{
+    margin-right: 65px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+#p2{
+    font-size: 12px;
+    margin-left: 40px;
+    padding-bottom: 0;
+}
+
+#assine-agora{
+    display: flex;
+    justify-content:center;
+    margin-right: 33px;
+
+}
+
+#assine{
+    font-size: 20px;
+    color: white;
+}
+
+#captcha{
+    font-size: 12px;
+    text-align: center;
+}
+
+#saiba-mais{
+    padding-right: 15px;
+    color: blue;
+}
+
+#entrar:hover{
+    cursor: pointer;
+    background-color: rgb(153, 22, 22);
+}
+
+#input:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+
+#facebook{
+    display: flex;
+    justify-content: baseline;
+    right: 5px;
+    font-size: 12px;
+    font-family: arial;
+    padding: 20px;
+    
+}
+span a img{
+    margin-left: 47px;
+    
+}
+
+#facebook span a{
+    margin-right: 8px;
+     margin: 3px;
+   
+
+}
